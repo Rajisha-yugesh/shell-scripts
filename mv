@@ -1,0 +1,4 @@
+for i in $(find . |grep linux)
+do
+mv $i move-files
+done
