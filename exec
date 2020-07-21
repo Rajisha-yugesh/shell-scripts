@@ -1,0 +1,8 @@
+for f in $(find .)
+do
+if [ -x $f ]
+then
+mv $f executables
+fi
+done
+
